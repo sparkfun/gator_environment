@@ -26495,20 +26495,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="45.72" y="147.32" size="1.27" layer="97" font="vector">VDD Range: 1.8-3.3V
 Max Current: 14mA (estimate)</text>
-<text x="23.622" y="160.782" size="2.54" layer="94" font="vector" rot="MR180" align="top-left">CCS811 - Air Quality (CO2, TVOC)</text>
-<text x="45.72" y="111.76" size="1.27" layer="97" font="vector" align="center-left">The address of the 
-CCS811 is 0x5B</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector" align="center-left">v01</text>
-<text x="168.656" y="107.696" size="1.27" layer="97" font="vector" align="top-left">The I2C address
-of the BME280 is
-fixed at 0x77
+<text x="0.762" y="181.102" size="2.54" layer="97" font="vector" rot="MR180" align="top-left">CCS811 - Air Quality (CO2, TVOC)</text>
+<text x="35.56" y="99.06" size="1.27" layer="97" font="vector" align="center-left">CCS811 7-bit Unshifted I2C address: 0x5B</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector" align="center-left">v10</text>
+<text x="158.496" y="112.776" size="1.27" layer="97" font="vector" align="top-left">BME280 7-bit Unshifted I2C Address: 0x77
 </text>
-<text x="143.002" y="160.782" size="2.54" layer="94" font="vector" rot="MR180" align="top-left">BME280 - Humidty, Pressure, Temperature </text>
+<text x="125.222" y="181.102" size="2.54" layer="97" font="vector" rot="MR180" align="top-left">BME280 - Humidty, Pressure, Temperature </text>
 <wire x1="248.92" y1="83.82" x2="124.46" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <wire x1="124.46" y1="83.82" x2="0" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <wire x1="124.46" y1="185.42" x2="124.46" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <text x="166.116" y="11.43" size="2.54" layer="94" font="vector">Andrew England</text>
-<text x="143.002" y="156.464" size="1.27" layer="97" font="vector">VDD Range: 1.2-3.6V</text>
+<text x="168.402" y="141.224" size="1.27" layer="97" font="vector">VDD Range: 1.2-3.6V</text>
+<text x="0.762" y="76.962" size="1.778" layer="97" font="vector">VIN:1.8-3.3V</text>
+<text x="0.762" y="79.502" size="2.54" layer="97" font="vector" rot="MR180" align="top-left">Connections</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -26547,12 +26546,12 @@ fixed at 0x77
 <instance part="SUPPLY2" gate="G$1" x="33.02" y="149.86" smashed="yes">
 <attribute name="VALUE" x="33.02" y="152.654" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="93.98" y="129.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.456" y="129.54" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="95.504" y="129.54" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R6" gate="G$1" x="83.82" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.296" y="129.54" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="85.344" y="129.54" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="93.98" y="137.16" smashed="yes">
-<attribute name="VALUE" x="93.98" y="139.954" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY11" gate="G$1" x="83.82" y="137.16" smashed="yes">
+<attribute name="VALUE" x="83.82" y="139.954" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="H4" gate="G$1" x="246.38" y="25.4" smashed="yes"/>
 <instance part="H2" gate="G$1" x="243.84" y="25.4" smashed="yes"/>
@@ -26722,8 +26721,8 @@ fixed at 0x77
 </net>
 <net name="SCL" class="0">
 <segment>
-<wire x1="68.58" y1="137.16" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
-<label x="81.28" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="68.58" y1="137.16" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
+<label x="73.66" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="U1" pin="SCL"/>
 </segment>
 <segment>
@@ -26753,8 +26752,8 @@ fixed at 0x77
 </net>
 <net name="SDA" class="0">
 <segment>
-<wire x1="68.58" y1="139.7" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
-<label x="81.28" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="68.58" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
+<label x="73.66" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="U1" pin="SDA"/>
 </segment>
 <segment>
@@ -26802,7 +26801,7 @@ fixed at 0x77
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
-<wire x1="93.98" y1="137.16" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="137.16" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
@@ -26866,26 +26865,26 @@ fixed at 0x77
 </net>
 <net name="CCS811_ADDR" class="0">
 <segment>
-<wire x1="68.58" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="121.92" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="121.92" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="121.92" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="U2" gate="U1" pin="ADDR"/>
 </segment>
 </net>
 <net name="!INT" class="0">
 <segment>
-<wire x1="68.58" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
-<label x="81.28" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="68.58" y1="132.08" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
+<label x="73.66" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="U1" pin="!INT!"/>
 </segment>
 </net>
 <net name="!WAKE" class="0">
 <segment>
 <wire x1="68.58" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
-<label x="81.28" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="73.66" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="U1" pin="!WAKE!"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="134.62" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="119.38" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
 <junction x="71.12" y="134.62"/>
 </segment>
