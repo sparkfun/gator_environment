@@ -3591,10 +3591,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$6" library="buzzard_labels" package="SCL2" value="" x="36.576" y="17.653" smashed="yes" rot="R180"/>
 <element name="U$7" library="buzzard_labels" package="GND0" value="" x="6.223" y="17.653" smashed="yes" rot="R180"/>
 <element name="U$8" library="buzzard_labels" package="3V33" value="" x="16.383" y="17.653" smashed="yes" rot="R180"/>
-<element name="U$9" library="buzzard_labels" package="3V33" value="" x="11.684" y="22.733" smashed="yes" rot="MR180"/>
-<element name="U$10" library="buzzard_labels" package="GND0" value="" x="1.397" y="22.733" smashed="yes" rot="MR180"/>
-<element name="U$11" library="buzzard_labels" package="SCL2" value="" x="32.004" y="22.733" smashed="yes" rot="MR180"/>
-<element name="U$12" library="buzzard_labels" package="SDA1" value="" x="21.844" y="22.733" smashed="yes" rot="MR180"/>
 <element name="U$13" library="buzzard_labels" package="SDA1" value="" x="26.543" y="7.747" smashed="yes" rot="MR0"/>
 <element name="U$14" library="buzzard_labels" package="SCL2" value="" x="36.449" y="7.747" smashed="yes" rot="MR0"/>
 <element name="U$15" library="buzzard_labels" package="GND0" value="" x="6.223" y="7.747" smashed="yes" rot="MR0"/>
@@ -3668,6 +3664,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="D4" pad="C"/>
 <contactref element="R5" pad="1"/>
 <via x="15.24" y="8.89" extent="1-16" drill="0.381"/>
+<via x="15.875" y="16.383" extent="1-16" drill="0.381"/>
+<via x="22.86" y="8.89" extent="1-16" drill="0.381"/>
+<via x="25.4" y="8.89" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="SCL">
 <contactref element="R14" pad="1"/>
