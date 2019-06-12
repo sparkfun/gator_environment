@@ -5,9 +5,9 @@ SparkFun gator:environment - micro:bit Accessory Board
 
 [*SparkFun gator:environment - micro:bit Accessory Board  (SEN-15269)*](https://www.sparkfun.com/products/15269)
 
-(Modify Description)
-The SparkFun CCS811/BME280 Combo Breakout is perfect for sensing anything you may want to know about the air quality. This breakout will fine tune eCO<sub>2</sub> and tVOC readings from the CCS811 using humidity and temperature readings from the BME280. The breakout will also detect barometric pressure.
+A board with I<sup>2</sup>C sensors for measuring environmental conditions. The sensors provide readings for temperature, pressure, relative humidity, equivalent carbon dioxide (eCO<sub>2</sub>), and equivalent total volitile organic compunds (eTVOC).
 
+Instead of using pin connections or requiring soldering, this product provides connection pads for a more kid freindly experience with alligator clips. The design intention of this product is to be used with the [gato:bit (v2)](https://www.sparkfun.com/products/15162), and the [micro:bit development board](https://www.sparkfun.com/products/14208).
 
 Repository Contents
 -------------------
@@ -28,7 +28,7 @@ This product is _**open source**_!
 
 Please review the LICENSE.md file for license information. 
 
-If you have any questions or concerns on licensing, please visit the [SparkFun Forum](https://forum.sparkfun.com/index.php) and post a topic. For more general questions related to our gator boards, please visit this section of the forum: [SparkFun Forums: Educational Products](https://forum.sparkfun.com/viewforum.php?f=155)
+If you have any questions or concerns on licensing, please visit the [SparkFun Forum](https://forum.sparkfun.com/index.php) and post a topic. For more general questions related to our gator boards, please visit this section of the forum: [Gator Products](https://forum.sparkfun.com/viewforum.php?f=162).
 
 Distributed as-is; no warranty is given.
 
